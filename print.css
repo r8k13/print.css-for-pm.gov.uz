@@ -1,0 +1,141 @@
+/**
+* Printer-friendly stylesheet for tracking information web page from the virtual reception pm.gov.uz
+* @version 1.0
+* @lastmodified 2022.11.18
+*/
+
+@media print {
+
+  *,
+  *:before,
+  *:after {
+    color: #000;
+    background-image: none !important;
+    box-shadow: none;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Source Sans Pro", "Proxima Nova", "Public Sans", "Open Sans", "Liberation Sans", "Segoe UI", Oxygen-Sans, Ubuntu, Roboto, Impact, Helvetica, "Helvetica Neue", Tahoma, Verdana, Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  a[href^="http"]:after, a[href^="/"]:after {
+    content: "";
+  }
+
+  nav,
+  #print,
+  .header-top,
+  .header-center .logo-text .line-1,
+  .header-right,
+  .data_left,
+  .useful,
+  .footer {
+    display: none;
+  }
+
+  .hidden-xs {
+    display: block !important;
+  }
+
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-12,
+  .header-center .logo-text,
+  .data_box,
+  .data_box ul,
+  .data_box .info_list li,
+  .data_tabs .tab-content,
+  .data_tabs .tab-content .info_list li,
+  .list_title,
+  .list_text,
+  .list_name {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .clearfix,
+  .header-wrap,
+  .header.header-left,
+  .header-top,
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .header-center {
+    display: block;
+    width: 100%;
+  }
+
+  .header-center .row {
+    float: left;
+  }
+
+  .header-center .row img {
+    display: inline-block;
+    width: 32%;
+    padding-left: 4pt;
+  }
+
+  .header-center .logo-text {
+    padding-right: 4pt;
+    margin: 0;
+  }
+
+  .header-center .logo-text .line-2,
+  .header-center .logo-text .line-3 {
+    text-align: right;
+    font-size: 12pt;
+  }
+
+  .header-center .logo-text .line-2 {
+    line-height: 12pt;
+  }
+
+  .header-center .logo-text .line-3 {
+    margin-top: 1pt;
+  }
+
+  .title_another,
+  .list_name {
+    font-size: 10pt;
+    text-align: center;
+    margin: 0;
+    margin-top: 4pt;
+    padding: 0;
+  }
+
+  .list_title {
+    width: 136pt;
+  }
+
+  .tab-content,
+  .data_right {
+    width: 100%;
+  }
+
+  .tab-content .list_title {
+    width: 164pt;
+  }
+
+  .list_text,
+  .list_title {
+    font-size: 10pt;
+  }
+
+  .list_text {
+    float: none;
+    text-align: justify;
+    width: 100%;
+  }
+
+}
