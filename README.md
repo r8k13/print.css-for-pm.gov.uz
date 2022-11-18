@@ -3,9 +3,9 @@ Printer-friendly web page with CSS
 
 **GOAL: To make the printing result of the web page more compact and readable**
 
-Usually, several sheets of [A4](https://papersizes.io/a/a4) paper are required to print out the tracking information from the virtual reception pm.gov.uz web page.
+Usually several sheets of [A4](https://papersizes.io/a/a4) paper size are required to print out the tracking information which also contains unnecessary text from the virtual reception [pm.gov.uz](https://pm.gov.uz/) of status check internal web page.
 
-Just take a look at the only two gifs below and compare the default and optimized print result.
+Just take a look at the only two gif images below for a better understanding and compare the default and the optimized print result.
 
 **BEFORE:**
 
@@ -29,3 +29,6 @@ ru: [Инструкция: CSS-оптимизация веб-страницы д
 
 ### Contributing
 Contributions or constructive feedback, are welcome.
+
+### License
+This project is licensed under MIT license.
